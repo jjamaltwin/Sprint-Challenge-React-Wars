@@ -44,6 +44,7 @@ class App extends Component {
          <Characters key={starwarsChars.gender} characters={starwarsChars} /> )}
          <Characters key={starwarsChars.height} characters={starwarsChars} /> )}
          <Characters key={starwarsChars.eye_color} characters={starwarsChars} /> )}
+         <Characters key={starwarsChars.hair_color} characters={starwarsChars} /> )}
       </div>
     );
   }

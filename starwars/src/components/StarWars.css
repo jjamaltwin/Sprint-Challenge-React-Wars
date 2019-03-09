@@ -12,15 +12,12 @@
 }
 
 p {
-    width: 50%;
+    width: 30%;
+    margin-left: 34%;
+    color: black;
     font-size: 1.5rem;
-    margin-left: 43%;
-    background-color: orange;
+     background-color: orange;
     padding: .25%;
-    opacity: 0.7;
-}
-
-.charac-List {
-    border: 3px solid blue; 
-
+    opacity: 0.6;
+    border-radius: 40%;
 }
