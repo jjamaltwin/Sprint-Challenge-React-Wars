@@ -1,0 +1,23 @@
+
+
+
+ h4 {
+    font-size: 2rem;
+    color: darkblue;
+    background-color: aliceblue;
+    width: 300px;
+    margin-left: 38%;
+    opacity: 0.5;
+    
+}
+
+p {
+    width: 30%;
+    margin-left: 34%;
+    color: black;
+    font-size: 1.5rem;
+     background-color: orange;
+    padding: .25%;
+    opacity: 0.6;
+    border-radius: 40%;
+}
