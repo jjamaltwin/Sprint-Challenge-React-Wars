@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+import Characters from './components/StarWarsCharacter';
+
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       starwarsChars: []
-    };
+    }
   }
 
   componentDidMount() {
@@ -30,9 +32,18 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.state);
+    let starwarsChars = this.state.starwarsChars
+
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        {starwarsChars.map(starwarsChars => 
+        <Characters key={starwarsChars.name} characters={starwarsChars} /> )}
+         <Characters key={starwarsChars.mass} characters={starwarsChars} /> )}
+         <Characters key={starwarsChars.gender} characters={starwarsChars} /> )}
+         <Characters key={starwarsChars.height} characters={starwarsChars} /> )}
+         <Characters key={starwarsChars.eye_color} characters={starwarsChars} /> )}
       </div>
     );
   }
